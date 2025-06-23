@@ -1,0 +1,5 @@
+npm run dev
+
+npm run build
+
+paste /dist file content into main folder
