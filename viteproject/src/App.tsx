@@ -6,6 +6,8 @@ import adduserimg from './assets/add user.png'
 import img3 from './assets/code controller.png'
 import img4 from './assets/code services.png'
 import img5 from './assets/Tweets.png'
+import img6 from './assets/Screenshot 2024-01-09 120714.png'
+import img7 from './assets/Screenshot 2024-01-09 120842.png'
 
 function App() {
   
@@ -28,32 +30,48 @@ function App() {
         </div>
 
         <div>
-          Github: https://github.com/collincrimmins
+          Github: 
+          <a href="https://github.com/collincrimmins"> https://github.com/collincrimmins</a>
         </div>
 
-        <div className="Header">Twitter Website / User Management Website</div>
         <div className="showcase">
-          <div>
-            Uses Springboot (Java) for Backend, with Typescript React for Frontend, and SQL for Database
-          </div>
+
           <div className="notes">
-            Frontend - Tweets Page
+            <div>Twitter Website & User Management Website</div>
+            <div>Tweets Page (React Frontend)</div>
           </div>
+
           <img src={img5} className="images"/>
+
           <div className="notes">
-            Frontend - Edit Users Page
+            <div>Twitter Website & User Management Website</div>
+            <div>Edit Users Page (React Frontend)</div>
           </div>
+          
           <img src={database} className="images"/>
           <img src={adduserimg} className="images"/>
+
           <div className="notes">
-            Spring Server - for Controller API's
+            <div>Twitter Website & User Management Website</div>
+            <div>Controller API's (Spring Server Backend)</div>
           </div>
+
           <img src={img3} className="images"/>
+
           <div className="notes">
-            Spring Server - Retrieve User data from SQL Database
+            <div>Twitter Website & User Management Website</div>
+            <div>Retrieve User data from SQL Database (Spring Server Backend)</div>
           </div>
+
           <img src={img4} className="images"/>
 
+          <div className="notes">
+            <div>Dizzycord Website (Chat Website)</div>
+            <div>Chat Page (React Frontend)</div>
+          </div>
+
+          <img src={img7} className="images"/>
+          <img src={img6} className="images"/>
 
         </div>
 
