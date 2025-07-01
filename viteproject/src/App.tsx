@@ -8,6 +8,8 @@ import img4 from './assets/code services.png'
 import img5 from './assets/Tweets.png'
 import img6 from './assets/Screenshot 2024-01-09 120714.png'
 import img7 from './assets/Screenshot 2024-01-09 120842.png'
+import img8 from './assets/ucf 1.png'
+import img9 from './assets/ucf 3.png'
 
 function App() {
   
@@ -30,8 +32,14 @@ function App() {
         </div>
 
         <div>
+          <div>
           Github: 
           <a href="https://github.com/collincrimmins"> https://github.com/collincrimmins</a>
+          </div>
+          <div>
+          Linkedin:
+          <a href="https://www.linkedin.com/in/collincrimmins/"> https://www.linkedin.com/in/collincrimmins/</a>
+          </div>
         </div>
 
         <div className="showcase">
@@ -72,6 +80,13 @@ function App() {
 
           <img src={img7} className="images"/>
           <img src={img6} className="images"/>
+
+          <div className="notes">
+            <div>UCF Chatbot</div>
+          </div>
+
+          <img src={img8} className="images"/>
+          <img src={img9} className="images"/>
 
         </div>
 
