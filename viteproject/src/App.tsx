@@ -45,6 +45,11 @@ function App() {
         <div className="showcase">
 
           <div className="notes">
+            <div>Website Deployed on AWS - EC2, S3, RDS</div>
+          </div>
+          <a href="https://youtu.be/iOCG2UJ9GdQ?si=kyjMAyZzvF2-FZtJ"> https://youtu.be/iOCG2UJ9GdQ?si=kyjMAyZzvF2-FZtJ</a>
+
+          <div className="notes">
             <div>Twitter Website & User Management Website</div>
             <div>Tweets Page (React Frontend)</div>
           </div>
