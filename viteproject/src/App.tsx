@@ -6,8 +6,6 @@ import adduserimg from './assets/add user.png'
 import img3 from './assets/code controller.png'
 import img4 from './assets/code services.png'
 import img5 from './assets/Tweets.png'
-import img6 from './assets/Screenshot 2024-01-09 120714.png'
-import img7 from './assets/Screenshot 2024-01-09 120842.png'
 import img8 from './assets/ucf 1.png'
 import img9 from './assets/ucf 3.png'
 
@@ -18,20 +16,19 @@ function App() {
     <>
       <div className="main">
         <div>
-          <div className="textinfo">Portfolio</div>
-          <div className="textinfo">Collin Crimmins</div>
+          <div className="mainheader">Collin Crimmins</div>
         </div>
 
-        <div>
+        {/* <div>
           <div className="textskills">
             <b>Languages:</b> Java | JavaScript & TypeScript | Python | C# | Lua | HTML | CSS | SQL & noSQL
           </div>
           <div>
             <b>Frameworks:</b> ReactJS (Frontend) | Spring-Boot w/ Java (Backend) | Git (Version Control)
           </div>
-        </div>
+        </div> */}
 
-        <div>
+        <div className="mylinks">
           <div>
           Github: 
           <a href="https://github.com/collincrimmins"> https://github.com/collincrimmins</a>
@@ -45,49 +42,33 @@ function App() {
         <div className="showcase">
 
           <div className="notes">
-            <div>Website Deployed on AWS - EC2, S3, RDS</div>
+            <div>Deployment to AWS (Cloud) - EC2, S3, RDS</div>
           </div>
-          <a href="https://youtu.be/iOCG2UJ9GdQ?si=kyjMAyZzvF2-FZtJ"> https://youtu.be/iOCG2UJ9GdQ?si=kyjMAyZzvF2-FZtJ</a>
+
+          <iframe className="myvideo" src="https://www.youtube.com/embed/iOCG2UJ9GdQ?si=UqH_GXU7_-j6cmdW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
           <div className="notes">
-            <div>Twitter Website & User Management Website</div>
-            <div>Tweets Page (React Frontend)</div>
+            <div>Social Media Website - React w/ Typescript</div>
           </div>
 
           <img src={img5} className="images"/>
 
-          <div className="notes">
-            <div>Twitter Website & User Management Website</div>
-            <div>Edit Users Page (React Frontend)</div>
-          </div>
           
           <img src={database} className="images"/>
           <img src={adduserimg} className="images"/>
 
           <div className="notes">
-            <div>Twitter Website & User Management Website</div>
+            <div>Backend - SpringBoot Server w/ Java</div>
             <div>Controller API's (Spring Server Backend)</div>
           </div>
 
           <img src={img3} className="images"/>
 
-          <div className="notes">
-            <div>Twitter Website & User Management Website</div>
-            <div>Retrieve User data from SQL Database (Spring Server Backend)</div>
-          </div>
-
           <img src={img4} className="images"/>
 
           <div className="notes">
-            <div>Dizzycord Website (Chat Website)</div>
-            <div>Chat Page (React Frontend)</div>
-          </div>
-
-          <img src={img7} className="images"/>
-          <img src={img6} className="images"/>
-
-          <div className="notes">
             <div>UCF Chatbot</div>
+            <div>(Keyword Querying tool to answer Student Questions)</div>
           </div>
 
           <img src={img8} className="images"/>
