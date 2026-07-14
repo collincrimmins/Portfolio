@@ -2,12 +2,11 @@
 import './App.css'
 
 import database from './assets/database.png'
-import adduserimg from './assets/add user.png'
-import img3 from './assets/code controller.png'
-import img4 from './assets/code services.png'
-import img5 from './assets/Tweets.png'
 import img8 from './assets/ucf 1.png'
 import img9 from './assets/ucf 3.png'
+import newimage1 from './assets/newimage1.png'
+import newimage2 from './assets/newimage2.png'
+import ucfupvote from './assets/ucfupvote.png'
 
 function App() {
   
@@ -37,42 +36,44 @@ function App() {
           Linkedin:
           <a href="https://www.linkedin.com/in/collincrimmins/"> https://www.linkedin.com/in/collincrimmins/</a>
           </div>
+          <div>
+            React Typescript |
+            Java SpringBoot |
+            SQL Postgres
+          </div>
         </div>
 
         <div className="showcase">
 
           <div className="notes">
+            <div>Full Stack Website Demo</div>
             <div>Deployment to AWS (Cloud) - EC2, S3, RDS</div>
           </div>
 
-          <iframe className="myvideo" src="https://www.youtube.com/embed/iOCG2UJ9GdQ?si=UqH_GXU7_-j6cmdW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          <iframe className="myvideo" src="https://www.youtube.com/embed/NsXlfrG0res?si=fHy8eB5GtENXTUDn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
           <div className="notes">
-            <div>Social Media Website - React w/ Typescript</div>
+            <div>More Images</div>
           </div>
 
-          <img src={img5} className="images"/>
+          <img src={newimage1} className="images"/>
+          <img src={newimage2} className="images"/>
 
-          
+          <div className="notes">
+            <div>Simple CRUD Database Pagination App Demo</div>
+          </div>
+
           <img src={database} className="images"/>
-          <img src={adduserimg} className="images"/>
 
           <div className="notes">
-            <div>Backend - SpringBoot Server w/ Java</div>
-            <div>Controller API's (Spring Server Backend)</div>
-          </div>
-
-          <img src={img3} className="images"/>
-
-          <img src={img4} className="images"/>
-
-          <div className="notes">
+            <div>2022 - 2023</div>
             <div>UCF Chatbot</div>
             <div>(Keyword Querying tool to answer Student Questions)</div>
           </div>
 
           <img src={img8} className="images"/>
           <img src={img9} className="images"/>
+          <img src={ucfupvote} className="images"/>
 
         </div>
 
